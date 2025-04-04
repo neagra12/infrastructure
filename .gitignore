@@ -5,3 +5,40 @@ render/terraform.tfstate.backup
 azure/.terraform
 azure/terraform.tfstate
 azure/terraform.tfstate.backup
+
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.log
+*.bak
+*.backup
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# IDE specific
+.idea/
+*.swp
+
+# Node.js
+node_modules/
+
+# Python virtualenvs
+venv/
+
+# System Files
+*.tmp
